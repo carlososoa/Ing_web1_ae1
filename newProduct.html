@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheStore</title>
+</head>
+<style>
+        body{
+        background-color: #F1F5F8;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav{
+        height: 6rem;
+        display: flex;
+        background-color: #FFFFFF;
+        margin: 0px;
+        
+        
+    }
+    a{
+      text-decoration: none;
+      display: inline;
+      padding: 10px;
+      font-size: 20px;
+      color:grey;
+    }
+    a:visited{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+        font-size: 20px;
+        color:grey;
+    }
+    a:hover,a:active{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+        font-size: 20px;
+        color:grey;
+    }
+    ul{
+        text-align: right;
+        margin: 2.5rem;
+    }
+   li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    color:grey;
+
+    }
+    li:hover{
+        font-size: 25px;
+        color:grey;
+        cursor: pointer;
+
+
+    }
+  
+    .producto{
+        flex-basis: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 1%;
+        padding: 5px;
+        background-color: #FFFFFF;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    .img_producto{
+        width: 60%;
+    }
+    h3{
+        margin: 1px;
+    }
+    .contenedor{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+    button{
+        color: #FFFFFF;
+        background-color:#DE1822;
+        border-radius: 5px;
+        border-color:#DE1822;
+        margin: 2px;
+        padding: 2px;
+        width: 197px;
+        height: 30px;
+        
+    }
+    button:hover{
+        cursor: pointer;
+        width: 197px;
+        height: 40px;
+        font-size: 20px;
+
+    }
+
+    label{
+        width: 100px;
+    }
+    .inputs{
+        margin: 10px;
+        font-size: 20px;
+    
+    }
+  
+
+</style>
+<body>
+
+    <nav>
+        <div style="flex-basis: 50%;">
+            <img style="height: 6rem; padding-left: 20px;" src="ellogo.png"/>
+
+        </div>
+        <div style="flex-basis: 50%">
+            <ul>
+                <li><a href="index.html">Products</a></li>
+                <li>Car</li>
+                <li><a href="index.html">New Product</a></li>
+                <li>Login</li>
+            </ul>
+
+        </div>
+        
+      
+    </nav>
+    <section class="contenedor">
+        <div class="producto">
+            
+            <form>
+                <div class="inputs">
+                    <div>
+                        <label>Name</label>
+                    </div>
+                    
+                    <input type="text" id="name"/>
+
+                </div>
+                <div class="inputs">
+                    <div class="labels">
+                        <label>Price</label>
+                    </div>
+                    
+                    <input type="number" id="price"/>
+
+                </div>
+                <div class="inputs">
+                    <div>
+                        <label>Inventory</label>
+                    </div>                    
+                    <input type="number" id="inventory"/>
+
+                </div>
+                <div style="display:flex;width: 100%; height: 40px;align-items: center;">
+                    <button type="submit">
+                        Create Product
+                    </button>
+                </div>               
+
+            </form>
+                        
+        </div>     
+        
+    </section>
+    
+</body>
+</html>
