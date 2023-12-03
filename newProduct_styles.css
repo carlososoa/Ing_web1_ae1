@@ -1,0 +1,141 @@
+
+body{
+    background-color: #F1F5F8;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    height: 6rem;
+    display: flex;
+    background-color: #FFFFFF;
+    margin: 0px;
+    box-shadow: 1px 8px 5px 0px rgba(0,4,26,0.15);
+    
+    
+}
+a{
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+  color:grey;
+}
+a:visited{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    color:grey;
+}
+a:hover,a:active{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    color:grey;
+}
+ul{
+    text-align: right;
+    margin: 2.5rem;
+}
+li{
+display: inline;
+padding: 10px;
+font-size: 20px;
+color:grey;
+
+}
+li:hover{
+    font-size: 25px;
+    color:grey;
+    cursor: pointer;
+
+
+}
+
+.producto{
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+    margin: 1%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.img_producto{
+    width: 60%;
+}
+h3{
+    margin: 1px;
+}
+.contenedor{
+    margin: auto;
+    margin-top: 30px;        
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+button{
+    color: #FFFFFF;
+    background-color:#DE1822;
+    border-radius: 5px;
+    border-color:#DE1822;
+    
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 2px;
+    width: 92%;
+    height: 40px;
+    
+}
+button:hover{
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+
+}
+
+label{
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputs{
+    margin: auto;
+    width: 90%;
+
+}
+h1{
+    text-align: left;
+    width: 83%;
+    color: #DE1822;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+form{
+    width: 90%;
+    margin: auto;        
+    
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 1px black solid;
+    font-size: 20px;
+    text-align: center;
+
+}
+.requerido{
+    color: #DE1822;
+    font-size: 10px;
+    display: none;
+
+}
